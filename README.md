@@ -51,4 +51,4 @@ npm run dev
 
 ## 📄 License
 
-MIT License - feel free to use for your projects!
+feel free to use for your projects!
