@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 SaaS Dashboard - Full Stack Application
 
-## Getting Started
+#abbas_aslam
 
-First, run the development server:
+A production-ready SaaS dashboard built with modern technologies. Features include authentication, subscription management, analytics, role-based access control, and more.
 
-```bash
+![Dashboard Preview](./public/preview.png)
+
+## ✨ Features
+
+- 🔐 **Authentication** - Email/Password + OAuth (Google, GitHub)
+- 👥 **Role Management** - User, Admin, Super Admin roles
+- 📊 **Analytics Dashboard** - Beautiful charts with Recharts
+- 💳 **Stripe Integration** - Subscription plans & billing
+- 📧 **Email System** - Transactional emails with Resend
+- 🌙 **Dark Mode** - System preference + manual toggle
+- 📱 **Responsive Design** - Mobile-first approach
+- 📚 **API Documentation** - Swagger UI integration
+- 🔒 **Type Safety** - Full TypeScript support
+- ⚡ **Performance** - Optimized with Next.js 14
+
+## 🛠️ Tech Stack
+
+| Category | Technology |
+|----------|-----------|
+| Framework | Next.js 14 (App Router) |
+| Language | TypeScript |
+| Database | PostgreSQL |
+| ORM | Prisma |
+| Auth | NextAuth.js |
+| Styling | Tailwind CSS |
+| Charts | Recharts |
+| Payments | Stripe |
+| Email | Resend |
+| Deployment | Vercel |
+
+## 🚀 Getting Started
+
+\`\`\`bash
+git clone https://github.com/yourusername/saas-dashboard.git
+cd saas-dashboard
+npm install
+cp .env.example .env
+npx prisma migrate dev
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📸 Screenshots
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+[Add screenshots here]
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📄 License
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT License - feel free to use for your projects!
